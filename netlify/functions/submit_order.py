@@ -10,7 +10,7 @@ def handler(event, context):
         # Отправка в Discord через вебхук
         webhook_url = "https://discord.com/api/webhooks/1405214736844460062/YaLq10Y-_DMQ3Ln3HcO7U1EjujBsnzh_F2vx5d6dhO4nazMdALYKaSdbAOrCGZ595gUy"
         message = {
-            "content": f"🚗 **Новая заявка на авто!**",
+            "content": f"**Новая заявка на авто!**",
             "embeds": [{
                 "title": car_model,
                 "description": f"**Discord пользователя:** {discord_id}",
@@ -27,4 +27,5 @@ def handler(event, context):
         return {
             'statusCode': 500,
             'body': json.dumps({'error': str(e)})
+
         }
