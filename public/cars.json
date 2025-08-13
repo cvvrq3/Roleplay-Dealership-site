@@ -3,7 +3,7 @@
     "name": "Subaru Impreza 2004",
     "price": 200000,
     "available": false,
-    "images": ["subaru1.jpg", "subaru2.jpg"],
+    "images": ["subaru1.jpg", "subaru2.png"],
     "description": "Описание"
   },
   "vw_tiguan": {
@@ -13,4 +13,5 @@
     "images": ["tiguan1.jpg"],
     "description": "Нello world"
   }
+
 }
