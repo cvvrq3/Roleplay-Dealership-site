@@ -2,12 +2,11 @@ exports.handler = async (event) => {
   try {
     const data = JSON.parse(event.body);
     
-    // Ваш Discord Webhook URL
     const webhookURL = "https://discord.com/api/webhooks/ВАШ_ВЕБХУК";
     
     const discordMessage = {
       embeds: [{
-        title: "🚗 Новая заявка на авто",
+        title: "Новая заявка на авто",
         fields: [
           { name: "Discord пользователя", value: data.discordId },
           { name: "Автомобиль", value: data.carModel }
@@ -33,3 +32,4 @@ exports.handler = async (event) => {
     };
   }
 };
+
