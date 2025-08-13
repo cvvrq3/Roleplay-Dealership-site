@@ -1,0 +1,16 @@
+{
+  "subaru_impreza": {
+    "name": "Subaru Impreza 2004",
+    "price": 200000,
+    "available": false,
+    "images": ["subaru1.jpg", "subaru2.jpg"],
+    "description": "Описание"
+  },
+  "vw_tiguan": {
+    "name": "Volkswagen Tiguan",
+    "price": 350000,
+    "available": true,
+    "images": ["tiguan1.jpg"],
+    "description": "Нello world"
+  }
+}
