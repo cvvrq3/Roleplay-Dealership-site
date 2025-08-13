@@ -1,3 +1,13 @@
+function showForm(carName, price) {
+    document.getElementById('car-name').textContent = carName;
+    document.getElementById('car-model').value = carName;
+    document.getElementById('modal').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+}
+
 document.getElementById('order-form').addEventListener('submit', async (e) => {
   e.preventDefault();
   
